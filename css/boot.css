@@ -1,0 +1,266 @@
+body
+{
+  padding-top:70px;
+}
+
+
+
+
+/************Edit bootstrap file*************/
+/*Main Navbar*/
+.navbar
+{
+  min-width: 70px;
+}
+/*Active Link*/
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+ .navbar-inverse .navbar-nav > .active > a:focus
+{
+  background-color:#E41817;
+}
+
+/*Navbar Links*/
+.navbar-inverse .navbar-nav > li > a
+{
+  color:#888;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 16px;
+}
+
+/*Navbar brand*/
+.navbar-inverse .navbar-brand
+{
+  font-size: 30px;
+  line-height: 36px;
+}
+.navbar-inverse .navbar-brand span
+{
+  color: #E41817;
+}
+.navbar-brand
+{
+  height: 70px;
+}
+/*Dropdown menu*/
+.dropdown-menu
+{
+  background-color:#333;
+  border-top: 3px solid  #E41817;
+  min-width: 200px;
+}
+
+.navbar-right .dropdown-menu
+{
+  left: 0;
+  right: auto;
+}
+.dropdown-menu > li > a
+{
+  color: #fff;
+  padding: 6px 20px;
+  -webkit-transition:padding 0.5s ease;
+  -moz-transition:padding 0.5s ease;
+  -O-transition:padding 0.5s ease;
+  transition:padding 0.5s ease;
+}
+
+.dropdown-menu > li > a:hover
+{
+  background-color:#E41817;
+  color: #fff;
+  padding-left: 25px;
+}
+
+.dropdown-menu .divider
+{
+  background-color: #871818;
+}
+
+/*Navbar toggle*/
+.navbar-toggle
+{
+  margin-top: 17px;
+}
+
+/*End Navbar*/
+
+/*Start carousel*/
+
+.carousel-slide
+{
+  height: 800px;
+}
+.div_determine_the_length_of_img .carousel-inner
+{
+  height: auto;
+}
+.div_determine_the_length_of_img .carousel-inner .item
+{
+  height: 800px;
+}
+
+.carousel-caption
+{
+  background-color: rgba(3, 3, 3, 0.2);
+  bottom: 42%;
+}
+
+
+/*Carousel Indicators*/
+.carousel-indicators
+{
+  bottom: 0px;
+}
+
+.carousel-indicators li
+{
+  height: 13px;
+  width: 13px;
+  border: 1px solid #eee;
+}
+
+.carousel-indicators .active
+{
+  height: 17px;
+  width: 17px;
+  background-color:#E41817;
+  border: 1px solid #E41817;
+}
+
+/************End Edit bootstrap file*************/
+
+/*Start Section About*/
+
+.about
+{
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+
+}
+.about .lead
+{
+  color: #888;
+  font-size: 27px;
+  margin-top: 15px;
+}
+.about h1 span,p span
+{
+  color: #E41817;
+  font-weight: bold;
+}
+
+.imageabout img
+{
+  height: 300px;
+  width: 400px;
+}
+
+
+/*End Section About*/
+
+/*Start Section Features*/
+
+.features
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+}
+.features h1
+{
+  margin-bottom: 50px;
+}
+.features .feat
+{
+  margin-bottom: 30px;
+}
+.features .feat p
+{
+  line-height: 2em;
+}
+
+.features .feat span.glyphicon
+{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+/*End Section Features*/
+
+
+/*Start Testimonials Features*/
+.testimonials
+{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.testimonials h1
+{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.testimonials .lead
+{
+  line-height: 2em;
+}
+
+.testimonials span
+{
+  font-size: 13px;
+  font-weight: bold;
+  color: #E41817;
+}
+
+.testimonials .carousel-inner
+{
+  min-height: 160px;
+}
+
+.testimonials .carousel-indicators
+{
+  position: static;
+  width: 100%;
+  margin-left: 0px;
+}
+.testimonials .carousel-indicators li
+{
+  text-indent: 0px;
+  height: 90px;
+  width: 90px;
+  opacity: 0.4;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  overflow: hidden;
+  margin: 5px;
+  -webkit-transition:all 0.6s ease;
+  -moz-transition:all 0.6s ease;
+  -O-transition:all 0.6s ease;
+  transition:all 0.6s ease;
+}
+
+.testimonials .carousel-indicators .active
+{
+  height: 90px;
+  width: 90px;
+  opacity: 1;
+  background-color: #fff;
+  border: 1px solid #E41817;
+}
+.testimonials .carousel-indicators li img
+{
+  max-width: 100%;
+}
+/*End Testimonials Features*/
+
+
+
+
+
+
+
+
+/**/
