@@ -100,13 +100,27 @@ body
 {
   height: 800px;
 }
-
+.div_determine_the_length_of_img .carousel-inner .item h4
+{
+  font-weight: bold;
+}
+/*
+.div_determine_the_length_of_img .item
+{
+  max-height: 500px;
+  overflow: hidden;
+}*/
 .carousel-caption
 {
-  background-color: rgba(3, 3, 3, 0.2);
+  background-color: rgba(3, 3, 3, 0.6);
+  padding: 15px;
   bottom: 42%;
 }
 
+.carousel-caption h4
+{
+  margin-bottom: 15px;
+}
 
 /*Carousel Indicators*/
 .carousel-indicators
