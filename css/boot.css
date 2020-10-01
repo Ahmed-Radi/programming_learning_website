@@ -1,10 +1,12 @@
+:root{
+  --main-color:#E41817;
+}
+
+
 body
 {
   padding-top:70px;
 }
-
-
-
 
 /************Edit bootstrap file*************/
 /*Main Navbar*/
@@ -14,10 +16,10 @@ body
 }
 /*Active Link*/
 .navbar-inverse .navbar-nav > .active > a,
- .navbar-inverse .navbar-nav > .active > a:hover,
- .navbar-inverse .navbar-nav > .active > a:focus
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
 {
-  background-color:#E41817;
+  background-color:var(--main-color);
 }
 
 /*Navbar Links*/
@@ -37,7 +39,7 @@ body
 }
 .navbar-inverse .navbar-brand span
 {
-  color: #E41817;
+  color: var(--main-color);
 }
 .navbar-brand
 {
@@ -47,7 +49,7 @@ body
 .dropdown-menu
 {
   background-color:#333;
-  border-top: 3px solid  #E41817;
+  border-top: 3px solid  var(--main-color);
   min-width: 200px;
 }
 
@@ -68,7 +70,7 @@ body
 
 .dropdown-menu > li > a:hover
 {
-  background-color:#E41817;
+  background-color:var(--main-color);
   color: #fff;
   padding-left: 25px;
 }
@@ -139,35 +141,28 @@ body
 {
   height: 17px;
   width: 17px;
-  background-color:#E41817;
-  border: 1px solid #E41817;
+  background-color:var(--main-color);
+  border: 1px solid var(--main-color);
 }
 
 /************End Edit bootstrap file*************/
 
 /*Start Section About*/
 
-.about
-{
+.about{
   padding-top: 60px;
   padding-bottom: 60px;
-
-
 }
-.about .lead
-{
+.about .lead{
   color: #888;
   font-size: 27px;
   margin-top: 15px;
 }
-.about h1 span,p span
-{
-  color: #E41817;
+.about h1 span,p span{
+  color: var(--main-color);
   font-weight: bold;
 }
-
-.imageabout img
-{
+.imageabout img{
   height: 300px;
   width: 400px;
 }
@@ -177,71 +172,69 @@ body
 
 /*Start Section Features*/
 
-.features
-{
+.features{
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #f7f7f7;
+  min-height: 750px;
 }
-.features h1
-{
+.features h1{
   margin-bottom: 50px;
 }
-.features .feat
-{
-  margin-bottom: 30px;
-}
-.features .feat p
-{
-  line-height: 2em;
-}
+.features .feat{
 
-.features .feat span.glyphicon
-{
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  display: none;
+}
+.features .feat span.glyphicon{
   font-size: 25px;
   margin-bottom: 10px;
+  margin-top: 20px;
+}
+.features .feat h3{
+  margin-bottom: 10px;
+}
+.features .feat p{
+  line-height: 2em;
 }
 /*End Section Features*/
 
 
 /*Start Testimonials Features*/
-.testimonials
-{
+.testimonials{
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.testimonials h1
-{
+.testimonials h1{
   font-weight: bold;
   margin-bottom: 20px;
+  margin-top: 50px;
 }
 
-.testimonials .lead
-{
+.testimonials .lead{
   line-height: 2em;
 }
 
-.testimonials span
-{
+.testimonials span{
   font-size: 13px;
   font-weight: bold;
-  color: #E41817;
+  color: var(--main-color);
 }
 
-.testimonials .carousel-inner
-{
+.testimonials .carousel-inner{
   min-height: 160px;
 }
 
-.testimonials .carousel-indicators
-{
+.testimonials .carousel-indicators{
   position: static;
   width: 100%;
   margin-left: 0px;
 }
-.testimonials .carousel-indicators li
-{
+.testimonials .carousel-indicators li{
   text-indent: 0px;
   height: 90px;
   width: 90px;
@@ -256,16 +249,14 @@ body
   transition:all 0.6s ease;
 }
 
-.testimonials .carousel-indicators .active
-{
+.testimonials .carousel-indicators .active{
   height: 90px;
   width: 90px;
   opacity: 1;
   background-color: #fff;
-  border: 1px solid #E41817;
+  border: 1px solid var(--main-color);
 }
-.testimonials .carousel-indicators li img
-{
+.testimonials .carousel-indicators li img{
   max-width: 100%;
 }
 /*End Testimonials Features*/
