@@ -325,11 +325,14 @@ body
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.ourTeam h1{
+.ourTeam h2{
   margin-bottom: 50px;
 }
 .ourTeam .person{
   margin-bottom: 40px;
+}
+.ourTeam .person h3{
+  margin-bottom: 25px;
 }
 .ourTeam .person img{
   max-width: 200px;
@@ -337,10 +340,31 @@ body
 }
 /*End Section our team */
 
+/*Start section subscribe */
+.subscribe{
+  padding-top: 40px;
+  padding-bottom: 70px;
+
+}
+.subscribe h2{
+  color: #888;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+.subscribe p{
+  margin-bottom: 30px;
+}
+.subscribe .form-control{
+  border-radius: 0;
+  margin-right: -4px;
+  width: 300px;
+}
+.subscribe button{
+  border-radius: 0;
+}
 
 
-
-
+/*End section subscribe*/
 
 
 /**/
