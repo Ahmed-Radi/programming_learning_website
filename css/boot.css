@@ -241,7 +241,7 @@ body
 .coursesTable .priceBox{
   background-color: #fff;
   padding: 10px;
-  border:1px solid #000;
+  border:0px solid #000;
   margin-bottom: 15px;
 }
 
@@ -424,4 +424,30 @@ input[type='email'],
   border: none;
 }
 /* End Section Contact US */
+
+/* Start Section Our clients */
+.our-clients{
+  background-color: #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.our-clients img{
+  height: 40px;
+  opacity: 0.4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.our-clients img:hover{
+  opacity: 1;
+}
+
+/* End Section Our clients */
+
+
+
+
+
+
 /**/
