@@ -15,14 +15,12 @@ body
 /*Active Link*/
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus
-{
+.navbar-inverse .navbar-nav > .active > a:focus{
   background-color:var(--main-color);
 }
 
 /*Navbar Links*/
-.navbar-inverse .navbar-nav > li > a
-{
+.navbar-inverse .navbar-nav > li > a{
   color:#888;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -30,34 +28,27 @@ body
 }
 
 /*Navbar brand*/
-.navbar-inverse .navbar-brand
-{
+.navbar-inverse .navbar-brand{
   font-size: 30px;
   line-height: 36px;
 }
-.navbar-inverse .navbar-brand span
-{
+.navbar-inverse .navbar-brand span{
   color: var(--main-color);
 }
-.navbar-brand
-{
+.navbar-brand{
   height: 70px;
 }
 /*Dropdown menu*/
-.dropdown-menu
-{
+.dropdown-menu{
   background-color:#333;
   border-top: 3px solid  var(--main-color);
   min-width: 200px;
 }
-
-.navbar-right .dropdown-menu
-{
+.navbar-right .dropdown-menu{
   left: 0;
   right: auto;
 }
-.dropdown-menu > li > a
-{
+.dropdown-menu > li > a{
   color: #fff;
   padding: 6px 20px;
   -webkit-transition:padding 0.5s ease;
@@ -65,22 +56,18 @@ body
   -O-transition:padding 0.5s ease;
   transition:padding 0.5s ease;
 }
-
-.dropdown-menu > li > a:hover
-{
+.dropdown-menu > li > a:hover{
   background-color:var(--main-color);
   color: #fff;
   padding-left: 25px;
 }
 
-.dropdown-menu .divider
-{
+.dropdown-menu .divider{
   background-color: #871818;
 }
 
 /*Navbar toggle*/
-.navbar-toggle
-{
+.navbar-toggle{
   margin-top: 17px;
 }
 
@@ -88,20 +75,16 @@ body
 
 /*Start carousel*/
 
-.carousel-slide
-{
+.carousel-slide{
   height: 800px;
 }
-.div_determine_the_length_of_img .carousel-inner
-{
+.div_determine_the_length_of_img .carousel-inner{
   height: auto;
 }
-.div_determine_the_length_of_img .carousel-inner .item
-{
+.div_determine_the_length_of_img .carousel-inner .item{
   height: 800px;
 }
-.div_determine_the_length_of_img .carousel-inner .item h4
-{
+.div_determine_the_length_of_img .carousel-inner .item h4{
   font-weight: bold;
 }
 /*
@@ -110,18 +93,14 @@ body
   max-height: 500px;
   overflow: hidden;
 }*/
-.carousel-caption
-{
+.carousel-caption{
   background-color: rgba(3, 3, 3, 0.6);
   padding: 15px;
   bottom: 42%;
 }
-
-.carousel-caption h4
-{
+.carousel-caption h4{
   margin-bottom: 15px;
 }
-
 /*Carousel Indicators*/
 .carousel-indicators
 {
@@ -164,12 +143,9 @@ body
   height: 300px;
   width: 400px;
 }
-
-
 /*End Section About*/
 
 /*Start Section Features*/
-
 .features{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -180,7 +156,6 @@ body
   margin-bottom: 50px;
 }
 .features .feat{
-
   margin-bottom: 30px;
   padding: 10px;
   border-radius: 20px;
@@ -206,23 +181,19 @@ body
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
 .testimonials h1{
   font-weight: bold;
   margin-bottom: 20px;
   margin-top: 50px;
 }
-
 .testimonials .lead{
   line-height: 2em;
 }
-
 .testimonials span{
   font-size: 13px;
   font-weight: bold;
   color: var(--main-color);
 }
-
 .testimonials .carousel-inner{
   min-height: 160px;
 }
@@ -246,7 +217,6 @@ body
   -O-transition:all 0.6s ease;
   transition:all 0.6s ease;
 }
-
 .testimonials .carousel-indicators .active{
   height: 90px;
   width: 90px;
@@ -258,7 +228,6 @@ body
   max-width: 100%;
 }
 /*End Testimonials Features*/
-
 
 /*Start Section courses table */
 .coursesTable{
@@ -316,13 +285,14 @@ body
 /*Strat Section our team  */
 .ourTeam{
   background: url('../img/Image upload Red.gif')no-repeat center center fixed;
+  /* background-size: cover; *//*if you use a picture want it take all size of div*/
   width: 100%;
   min-height: 700px;
 }
 .ourTeam .team{
   background-color: rgba(2, 2, 2, 0.4);
   color: #fff;
-  min-height: 100%;
+  min-height: 700px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -370,6 +340,7 @@ body
 .statistics{
   min-height: 400px;
   background: url('../img/Programming.gif') no-repeat center center fixed;
+  /* background-size: cover; *//*if you use a picture want it take all size of div*/
 }
 .statistics .data{
   min-height: 400px;
@@ -398,8 +369,27 @@ body
   font-size: 19px;
 }
 
-
 /*End section stats*/
+
+/* Start me Skills */
+.me-skills{
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+.me-skills h2{
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+.me-skills .me-info h3{
+  margin-top: 0px;
+  font-weight: bold;
+}
+.me-skills .progress-bar{
+  font-weight: bold;
+  text-align: left;
+  text-indent: 10px;
+}
+/* End me Skills */
 
 
 /**/
