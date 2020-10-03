@@ -391,5 +391,37 @@ body
 }
 /* End me Skills */
 
-
+/* Start Section Contact US */
+.contact-us{
+  min-height: 400px;
+  background: url('../img/Contact-us.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color:#fff;
+}
+.contact-us .fields{
+  background-color: rgba(9, 9, 9, 0.7);
+  min-height: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contact-us .fields h2,p{
+  text-transform: capitalize;
+}
+.contact-us .fields p{
+  margin-bottom: 20px;
+}
+.contact-us .fields textarea{
+  height: 85px;
+}
+.contact-us input[type='text'],
+input[type='email'],
+.contact-us textarea{
+  background-color: rgba(82,78,78,0.7);
+  border: none;
+  color: #fff;
+}
+.contact-us button{
+  border: none;
+}
+/* End Section Contact US */
 /**/
