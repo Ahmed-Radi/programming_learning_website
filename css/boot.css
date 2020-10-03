@@ -3,6 +3,7 @@
 }
 body
 {
+  height: 5000px;
   padding-top:70px;
 }
 /************Edit bootstrap file*************/
@@ -316,7 +317,7 @@ body
 .ourTeam{
   background: url('../img/Image upload Red.gif')no-repeat center center fixed;
   width: 100%;
-  height: 700px;
+  min-height: 700px;
 }
 .ourTeam .team{
   background-color: rgba(2, 2, 2, 0.4);
@@ -344,7 +345,7 @@ body
 .subscribe{
   padding-top: 40px;
   padding-bottom: 70px;
-
+  /* height: 300px; */
 }
 .subscribe h2{
   color: #888;
@@ -363,8 +364,42 @@ body
   border-radius: 0;
 }
 
-
 /*End section subscribe*/
+
+/*Start section stats*/
+.statistics{
+  min-height: 400px;
+  background: url('../img/Programming.gif') no-repeat center center fixed;
+}
+.statistics .data{
+  min-height: 400px;
+  color: #b6b5b5;
+  background-color: rgba(2, 2, 2, 0.7);
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.statistics .data h2{
+  margin-bottom: 70px;
+}
+.statistics .state{
+  transition: all 0.4s ease-in-out;
+  margin-bottom: 30px;
+}
+.statistics .state:hover{
+  color: #fff;
+}
+.statistics p{
+  font-size: 37px;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.statistics span{
+  font-size: 19px;
+}
+
+
+/*End section stats*/
 
 
 /**/
