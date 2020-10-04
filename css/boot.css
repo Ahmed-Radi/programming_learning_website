@@ -172,6 +172,7 @@ body
 }
 .features .feat p{
   line-height: 2em;
+  font-weight: 600;
 }
 /*End Section Features*/
 
@@ -447,10 +448,9 @@ input[type='email'],
 
 /* Start Ultimate Footer Section */
 .footer{
-  background: #333;
+  background: #111;
   color: #aaa;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
 }
 .footer a{
   color: #aaa;
@@ -461,7 +461,7 @@ input[type='email'],
 .footer h3{
   color: #0895D1;
   letter-spacing: 1px;
-  margin: 30px 0 20px;
+  margin: 30px 0 33px;
 }
 .footer .three-columns{
   overflow: hidden;
@@ -469,7 +469,7 @@ input[type='email'],
 .footer .three-columns li{
   width: 33.33333%;
   float: left;
-  padding: 5px;
+  padding: 12px;
 }
 .footer .social-list{
   overflow: hidden;
@@ -481,6 +481,7 @@ input[type='email'],
 .footer .social-list li{
   float: left;
   margin: 5px;
+  padding-left: 10px;
   opacity: 0.7;
   transition: all 0.5s ease-in-out;
 }
@@ -488,11 +489,36 @@ input[type='email'],
 opacity: 1;
 }
 
+/*media*/
 
+.media-img img{
+  width: 100px;
+  height: 100px;
+}
 
+/*Work*/
+.work img{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-left: 23px;
+}
 
-
-
+/*Copyright*/
+.footer .copyright{
+  background: #333;
+  color: #aaa;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 18px;
+}
+.footer .copyright span{
+  color: #0895D1;
+  transition: all 0.4s ease-in-out;
+}
+.footer .copyright span:hover{
+  color: #0895FF;
+}
 /* End Ultimate Footer Section */
 
 /**/
