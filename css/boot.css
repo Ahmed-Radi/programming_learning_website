@@ -445,9 +445,54 @@ input[type='email'],
 
 /* End Section Our clients */
 
+/* Start Ultimate Footer Section */
+.footer{
+  background: #333;
+  color: #aaa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer a{
+  color: #aaa;
+}
+.footer a:hover{
+  color: #fff;
+}
+.footer h3{
+  color: #0895D1;
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+}
+.footer .three-columns{
+  overflow: hidden;
+}
+.footer .three-columns li{
+  width: 33.33333%;
+  float: left;
+  padding: 5px;
+}
+.footer .social-list{
+  overflow: hidden;
+}
+.footer .social-list img{
+  width: 40px;
+  height: 40px;
+}
+.footer .social-list li{
+  float: left;
+  margin: 5px;
+  opacity: 0.7;
+  transition: all 0.5s ease-in-out;
+}
+.footer .social-list li:hover{
+opacity: 1;
+}
 
 
 
 
+
+
+/* End Ultimate Footer Section */
 
 /**/
