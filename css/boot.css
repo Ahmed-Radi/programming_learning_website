@@ -523,24 +523,3 @@ opacity: 1;
   color: #0895FF;
 }
 /* End Ultimate Footer Section */
-
-/*Start Media Query*/
-
-/*Mobile & tabletWSSS*/
-@media (max-width:767px){
-
-}
-
-/*Small Screen*/
-@media(min-width:768px) and (max-width:991px){
-
-}
-
-/*Medium Screen*/
-@media(min-width:992px) and (max-width:1199px){
-
-}
-
-
-
-/*End Media Query*/
