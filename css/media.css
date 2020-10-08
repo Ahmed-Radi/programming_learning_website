@@ -67,6 +67,7 @@
     }
     /* End Carousel*/
 
+
 }
 
 /**** Large Screen ****/
@@ -80,6 +81,14 @@
         height: 2112px;
     }
     /* End Carousel*/
+        /*Our Team*/
+        .ourTeam{
+            min-height: 620px;
+        }
+        .ourTeam .team{
+            min-height: 620px;
+        }
+        /*End Our team*/
 }
 
 
