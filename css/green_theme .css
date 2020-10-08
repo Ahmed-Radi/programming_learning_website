@@ -1,0 +1,59 @@
+/**** Start Default_theme ****/
+:root{
+    --main-color:#0EE681;
+    --main-color-hover:#0EF589;
+    --second-color:#E64E6D;
+    --second-color-hover:#eb8297;
+}
+/* background color main-color*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.carousel-indicators .active,
+.option-box .gear-check{
+    background-color:var(--main-color);
+}
+/* background color Second-color*/
+.dropdown-menu .divider{
+    background-color: var(--second-color);
+}
+/* color */
+.navbar-inverse .navbar-brand span,
+.about h1 span,p span,
+.testimonials span{
+    color: var(--main-color);
+}
+/* Color second-color */
+.footer h3,
+.footer .copyright span{
+    color: var(--second-color);
+}
+/* Color second-color:hover */
+.footer .copyright span:hover{
+    color:var(--second-color-hover);
+}
+/*border  solid 1px*/
+.carousel-indicators .active,
+.testimonials .carousel-indicators .active{
+    border: 1px solid var(--main-color);
+}
+/* bordere solid 2px*/
+.option-box .color-option{
+    border: 2px solid var(--main-color);
+}
+/* bordere dashed 2px*/
+.coursesTable .priceBox:hover p{
+    border: 3px dashed var(--main-color);
+}
+/*border top*/
+.dropdown-menu{
+    border-top: 3px solid  var(--main-color);
+}
+/* box shadow */
+.coursesTable .priceBox:hover{
+    box-shadow: 5px 10px 8px var(--second-color) ;/* var(--second-color) */
+}
+
+
+/**** End Default_theme ****/
