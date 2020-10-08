@@ -54,6 +54,8 @@
 .coursesTable .priceBox:hover{
     box-shadow: 5px 10px 8px var(--second-color) ;/* var(--second-color) */
 }
-
+/* .features .feat{
+    background: linear-gradient(141deg, var(--second-color-hover) 1%, var(--second-color) -5%, var(--main-color) 105%)
+} */
 
 /**** End Default_theme ****/

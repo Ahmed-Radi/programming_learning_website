@@ -25,6 +25,10 @@
     }
     /* End Carousel */
 
+    .imageabout img{
+        height: 209px;
+        width: 252px;
+    }
     /*Start section subscribe*/
     .subscribe .form-control{
         margin: 30px auto;
@@ -33,6 +37,10 @@
     /* OurTeam */
     .ourteam{
         text-align: center;
+    }
+    /**/
+    .sk-cube-grid {
+        margin: 344px auto;
     }
 }
 
@@ -53,6 +61,10 @@
         height: 953px;
     }
     /* End Carousel*/
+    /**/
+    .sk-cube-grid {
+        margin: 344px auto;
+    }
 }
 
 /**** Medium Screen ****/
@@ -65,9 +77,10 @@
     .carousel-inner > .item > a > img{
         height: 1084px;
     }
-    /* End Carousel*/
-
-
+    /**/
+    .sk-cube-grid {
+        margin: 338px auto;
+    }
 }
 
 /**** Large Screen ****/
@@ -81,14 +94,18 @@
         height: 2112px;
     }
     /* End Carousel*/
-        /*Our Team*/
-        .ourTeam{
-            min-height: 620px;
-        }
-        .ourTeam .team{
-            min-height: 620px;
-        }
-        /*End Our team*/
+    /*Our Team*/
+    .ourTeam{
+        min-height: 620px;
+    }
+    .ourTeam .team{
+        min-height: 620px;
+    }
+    /*End Our team*/
+    /**/
+    .sk-cube-grid {
+        margin: 356px auto;
+    }
 }
 
 

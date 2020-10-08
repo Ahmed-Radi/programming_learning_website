@@ -31,9 +31,23 @@ colorLi
 
   colorLi.click(function(){
     $("link[href*='theme']").attr("href",$(this).attr("data-value"));
-
-    //console.log()
   });
-
-
 });
+
+//Loading Screen
+$(window).on('load',function(){//الفانكشن دى هتشتغل بعد ما كل حاجه تحمل في الصفحه
+  //Loading Elements
+  $(".loading-overlay .sk-cube-grid").fadeOut(4000,function(){
+    $(this).parent().fadeOut(1000,function(){
+      //show scroll
+      $('body').css('overflow','auto');
+      $(this).remove();
+    })
+  });
+});
+//الكود المختصر
+// css من ملف over-flow:hidden لازم امسح
+// $(window).on('load',function(){
+//   //Loading Elements
+//   $(".loading-overlay, .sk-cube-grid").fadeOut(4000)
+// });

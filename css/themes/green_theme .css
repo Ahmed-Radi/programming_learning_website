@@ -2,8 +2,8 @@
 :root{
     --main-color:#0EE681;
     --main-color-hover:#0EF589;
-    --second-color:#E64E6D;
-    --second-color-hover:#f33258;
+    --second-color:#ADFAFF;
+    --second-color-hover:#19e0ee;
 }
 /* background color main-color*/
 .navbar-inverse .navbar-nav > .active > a,
