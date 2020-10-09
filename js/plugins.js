@@ -1,20 +1,15 @@
 /*global $,window,document */
 $(document).ready(function () {
-    
     "use strict";
-  
     $('.carousel').carousel({
-      
         interval: 4000
-      
     });
 });
-
 //** Start hidden section Features & show when reach to 1000px */
 $(window).scroll(function () {
     "use strict";
     var displayFeat = $('.feat'), colorLi = $('.color-option ul li');
-    
+
     if ($(window).scrollTop() >= 1100 || $(window).scrollTop() >= 1000) {
         displayFeat.fadeIn(600);
     } else {
@@ -35,7 +30,6 @@ $(window).scroll(function () {
         .eq(2).css('backgroundColor', '#0EE681').end()
         .eq(3).css('backgroundColor', '#F1E31B').end()
         .eq(4).css('backgroundColor', '#BE8CD1');
-
     colorLi.click(function () {
         $("link[href*='theme']").attr("href", $(this).attr("data-value"));
     });
@@ -54,15 +48,13 @@ $(window).scroll(function () {
 scrollButton.click(function () {
     "use strict";
     $('html,body').animate({scrollTop: 0}, 2000);
-    
 });
-
 //Loading Screen
 $(window).on('load', function () {//الفانكشن دى هتشتغل بعد ما كل حاجه تحمل في الصفحه
     "use strict";
     //Loading Elements
-    $(".loading-overlay .sk-cube-grid").fadeOut(4000, function () {
-    //show scroll
+    $(".loading-overlay .sk-cube-grid").fadeOut(1000, function () {
+        //show scroll
         $('body').css('overflow', 'auto');
         $(this).parent().fadeOut(1000, function () {
             $(this).remove();

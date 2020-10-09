@@ -12,8 +12,13 @@
 .dropdown-menu > li > a:hover,
 .carousel-indicators .active,
 .option-box .gear-check,
+.subscribe button,
 #scroll-top:hover{
     background-color:var(--main-color);
+}
+/* background color main-color-hover*/
+.subscribe button:hover{
+    background-color: var(--main-color-hover);
 }
 /* background color Second-color*/
 .dropdown-menu .divider,
@@ -39,7 +44,8 @@
 }
 /*border  solid 1px*/
 .carousel-indicators .active,
-.testimonials .carousel-indicators .active{
+.testimonials .carousel-indicators .active,
+.hvr-overline-from-left{
     border: 1px solid var(--main-color);
 }
 /* bordere solid 2px*/
@@ -52,12 +58,21 @@
 }
 /*border top*/
 .dropdown-menu{
-    border-top: 3px solid  var(--main-color);
+    border-top: 3px solid var(--main-color);
 }
 /* box shadow */
 .coursesTable .priceBox:hover{
-    box-shadow: 5px 10px 8px var(--second-color) ;/* var(--second-color) */
+    box-shadow: 5px 10px 8px var(--second-color) ;
 }
 
-
+.features .feat{
+    background: linear-gradient(141deg, #eeeeee 0%, #eee 51%, var(--second-color) 109%)
+}
+/*hover button in subscrib section*/
+.hvr-overline-from-left:before {
+    background: var(--second-color);
+}
+.subscribe button:hover{
+    border: 1px solid var(--main-color);
+}
 /**** End Default_theme ****/

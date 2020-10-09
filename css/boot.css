@@ -422,8 +422,8 @@ input[type='email'],
   right: 10px;
   bottom: 10px;
   z-index: 999;
-  display: none;
   cursor: pointer;
+  border-radius: 50%;
 }
 /** End section Scroll to top  */
 
@@ -434,7 +434,7 @@ input[type='email'],
 .testimonials .h1{
   margin-bottom: 50px;
 }
-.testimonials .carousel-indicators li
+.testimonials .carousel-indicators li,
 .statistics .state,
 .our-clients img,
 .footer .copyright span,
