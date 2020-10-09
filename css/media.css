@@ -13,7 +13,7 @@
         overflow: hidden;
     }
     .div_determine_the_length_of_img .carousel-inner .item{
-        height: 570px;
+        height: 376px;
     }
     .img-responsive,
     .thumbnail > img,
@@ -21,7 +21,7 @@
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img{
         height: 568px;
-        width: 752px;
+        width: 100%;
     }
     /* End Carousel */
 
@@ -59,6 +59,13 @@
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img{
         height: 953px;
+        width: 100%;
+    }
+    .div_determine_the_length_of_img .carousel-inner .item{
+        height: 606px;
+    }
+    .carousel-caption{
+        bottom: 31%;
     }
     /* End Carousel*/
     /**/
@@ -76,6 +83,10 @@
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img{
         height: 1084px;
+        width: 100%;
+    }
+    .carousel-caption{
+        bottom: 40%;
     }
     /**/
     .sk-cube-grid {
@@ -91,7 +102,14 @@
     .thumbnail a > img,
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img{
-        height: 2112px;
+        height: 1699px;
+        width: 100%;
+    }
+    .div_determine_the_length_of_img .carousel-inner .item{
+        height: 701px;
+    }
+    .carousel-caption{
+        bottom: 37%;
     }
     /* End Carousel*/
     /*Our Team*/

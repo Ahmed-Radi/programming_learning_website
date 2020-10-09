@@ -7,7 +7,7 @@ $(document).ready(function(){
 //**Start hidden section Features & show when reach to 1000px */
 $(window).scroll(function(){
   const displayFeat = $('.feat') ;
-  if($(window).scrollTop() >= 1100 ){
+  if($(window).scrollTop() >= 1100 || $(window).scrollTop() >= 1000 ){
     displayFeat.fadeIn(600);
   }else{
     displayFeat.fadeOut(1000);
@@ -47,9 +47,9 @@ scrollButton.click(function(){
 $(window).on('load',function(){//الفانكشن دى هتشتغل بعد ما كل حاجه تحمل في الصفحه
   //Loading Elements
   $(".loading-overlay .sk-cube-grid").fadeOut(4000,function(){
+    //show scroll
+    $('body').css('overflow','auto');
     $(this).parent().fadeOut(1000,function(){
-      //show scroll
-      $('body').css('overflow','auto');
       $(this).remove();
     })
   });
