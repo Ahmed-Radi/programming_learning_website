@@ -53,7 +53,7 @@ scrollButton.click(function () {
 $(window).on('load', function () {//الفانكشن دى هتشتغل بعد ما كل حاجه تحمل في الصفحه
     "use strict";
     //Loading Elements
-    $(".loading-overlay .sk-cube-grid").fadeOut(1000, function () {
+    $(".loading-overlay .sk-cube-grid").fadeOut(3000, function () {
         //show scroll
         $('body').css('overflow', 'auto');
         $(this).parent().fadeOut(1000, function () {
