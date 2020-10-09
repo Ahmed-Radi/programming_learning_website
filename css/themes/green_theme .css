@@ -11,22 +11,26 @@
 .navbar-inverse .navbar-nav > .active > a:focus,
 .dropdown-menu > li > a:hover,
 .carousel-indicators .active,
-.option-box .gear-check{
+.option-box .gear-check,
+#scroll-top:hover{
     background-color:var(--main-color);
 }
 /* background color Second-color*/
-.dropdown-menu .divider{
+.dropdown-menu .divider,
+#scroll-top{
     background-color: var(--second-color);
 }
 /* color */
 .navbar-inverse .navbar-brand span,
 .about h1 span,p span,
-.testimonials span{
+.testimonials span,
+#scroll-top{
     color: var(--main-color);
 }
 /* Color second-color */
 .footer h3,
-.footer .copyright span{
+.footer .copyright span,
+#scroll-top:hover{
     color: var(--second-color);
 }
 /* Color second-color:hover */

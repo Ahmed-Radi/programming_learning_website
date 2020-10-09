@@ -34,6 +34,15 @@ colorLi
   });
 });
 
+/** Scroll To Top */
+var scrollButton = $('#scroll-top');
+$(window).scroll(function(){
+  $(this).scrollTop() >= 2000 ? scrollButton.fadeIn(400) : scrollButton.fadeOut(400);
+});
+scrollButton.click(function(){
+  $('html,body').animate({scrollTop:0},2000)
+});
+
 //Loading Screen
 $(window).on('load',function(){//الفانكشن دى هتشتغل بعد ما كل حاجه تحمل في الصفحه
   //Loading Elements

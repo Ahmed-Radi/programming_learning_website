@@ -457,7 +457,7 @@ input[type='email'],
   color: #aaa;
 }
 .footer a:hover{
-  color: #fff;
+  color: #eee;
 }
 .footer h3{
   letter-spacing: 1px;
@@ -470,6 +470,10 @@ input[type='email'],
   width: 33.33333%;
   float: left;
   padding: 12px;
+  transition: all 0.4s ease-in;
+}
+.footer .three-columns li:hover{
+  color: #eee;
 }
 .footer .social-list{
   overflow: hidden;
@@ -590,3 +594,19 @@ opacity: 1;
   }
 }
 /* End section loading */
+
+/* Start section Scroll to top  */
+#scroll-top{
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 9999;
+  display: none;
+  cursor: pointer;
+}
+
+/* End section Scroll to top  */
