@@ -147,7 +147,6 @@ h1,h2,h3,h4,h5,.lead {font-family: 'Hind Siliguri', sans-serif;}
   height: 90px;
   width: 90px;
   opacity: 1;
-  background-color: #fff;
 }
 .testimonials .carousel-indicators li img {max-width: 100%;}
 /** End Testimonials Features */
@@ -269,6 +268,7 @@ h1,h2,h3,h4,h5,.lead {font-family: 'Hind Siliguri', sans-serif;}
 }
 .contact-us .fields h2,p {text-transform: capitalize;}
 .contact-us .fields p {margin-bottom: 20px;}
+.contact-us .fields label{width: 100%;}
 .contact-us .fields textarea {height: 85px;}
 .contact-us input[type='text'],
 input[type='email'],

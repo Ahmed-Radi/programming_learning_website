@@ -44,7 +44,6 @@
 }
 /*border  solid 1px*/
 .carousel-indicators .active,
-.testimonials .carousel-indicators .active,
 .hvr-overline-from-left{
     border: 1px solid var(--main-color);
 }
@@ -56,6 +55,10 @@
 .coursesTable .priceBox:hover p{
     border: 3px dashed var(--main-color);
 }
+/* bordere solid 4px*/
+.testimonials .carousel-indicators .active{
+    border: 4px solid var(--main-color);
+}
 /*border top*/
 .dropdown-menu{
     border-top: 3px solid var(--main-color);
@@ -64,7 +67,6 @@
 .coursesTable .priceBox:hover{
     box-shadow: 5px 10px 8px var(--second-color) ;
 }
-
 .features .feat{
     background: linear-gradient(141deg, #eeeeee 0%, #eee 51%, var(--second-color) 109%)
 }
