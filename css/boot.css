@@ -464,3 +464,137 @@ input[type='email'],
   color: #eee;
 }
 /** End Grouping our System*/
+
+
+/******************** Media Query ********************/
+
+/**** Mobile & tabletWSSS ****/
+@media (max-width:767px){
+  /* Start navbar */
+  .navbar-inverse .navbar-nav > li > a{
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  /* End navbar */
+
+  /* Start Carousel */
+  .carousel .slide{
+      height: 568px;
+      overflow: hidden;
+  }
+  .div_determine_the_length_of_img .carousel-inner .item{
+      height: 376px;
+  }
+  .img-responsive,
+  .thumbnail > img,
+  .thumbnail a > img,
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img{
+      height: 568px;
+      width: 100%;
+  }
+  /* End Carousel */
+
+  .imageabout img{
+      height: 209px;
+      width: 252px;
+  }
+  /*Start section subscribe*/
+  .subscribe .form-control{
+      margin: 30px auto;
+  }
+  /*End section subscribe*/
+  /* OurTeam */
+  .ourteam{
+      text-align: center;
+  }
+  /**/
+  .sk-cube-grid {
+      margin: 344px auto;
+  }
+}
+
+/**** Small Screen ****/
+@media(min-width:768px) and (max-width:991px){
+  /* Start navbar */
+  .navbar-right{
+      margin-right: -38px;
+  }
+  /* End navbar */
+
+  /* Start Carousel */
+  .img-responsive,
+  .thumbnail > img,
+  .thumbnail a > img,
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img{
+      height: 953px;
+      width: 100%;
+  }
+  .div_determine_the_length_of_img .carousel-inner .item{
+      height: 606px;
+  }
+  .carousel-caption{
+      bottom: 31%;
+  }
+  /* End Carousel*/
+  /**/
+  .sk-cube-grid {
+      margin: 344px auto;
+  }
+}
+
+/**** Medium Screen ****/
+@media(min-width:992px) and (max-width:1199px){
+  /* Start Carousel */
+  .img-responsive,
+  .thumbnail > img,
+  .thumbnail a > img,
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img{
+      height: 1084px;
+      width: 100%;
+  }
+  .carousel-caption{
+      bottom: 40%;
+  }
+  /**/
+  .sk-cube-grid {
+      margin: 338px auto;
+  }
+}
+
+/**** Large Screen ****/
+@media(min-width:1200px){
+  /* Start Carousel */
+  .img-responsive,
+  .thumbnail > img,
+  .thumbnail a > img,
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img{
+      height: 1699px;
+      width: 100%;
+  }
+  .div_determine_the_length_of_img .carousel-inner .item{
+      height: 701px;
+  }
+  .carousel-caption{
+      bottom: 37%;
+  }
+  /* End Carousel*/
+  /*Our Team*/
+  .ourTeam{
+      min-height: 620px;
+  }
+  .ourTeam .team{
+      min-height: 620px;
+  }
+  /*End Our team*/
+  /**/
+  .sk-cube-grid {
+      margin: 356px auto;
+  }
+}
+
+
+/*End Media Query*/
