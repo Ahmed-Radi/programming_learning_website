@@ -285,6 +285,7 @@ input[type='email'],
 }
 .our-clients img{
   height: 40px;
+  width: 165px;
   opacity: 0.4;
   margin-top: 20px;
   margin-bottom: 20px;
