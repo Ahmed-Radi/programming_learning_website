@@ -5,5 +5,6 @@ This project is a website to help people enter the web design field, and we will
 This website conatin 4 pages
 
 ### A page was created using : HTML5 - CSS - Javascript
-### Library used : Bootstrap - Font Awesome - Hover
+### FreameWork : JQuery
+### Library used : Bootstrap - Font Awesome - Hover - WoW
 ### Fonts : Google font ('Hind Siliguri', sans-serif;)
