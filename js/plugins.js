@@ -10,11 +10,11 @@ $(window).scroll(function () {
     "use strict";
     var displayFeat = $('.feat'), colorLi = $('.color-option ul li');
 
-    if ($(window).scrollTop() >= 1100 || $(window).scrollTop() >= 1000) {
-        displayFeat.fadeIn(600);
-    } else {
-        displayFeat.fadeOut(1000);
-    }
+    // if ($(window).scrollTop() >= 1100 || $(window).scrollTop() >= 1000) {
+    //     displayFeat.fadeIn(600);
+    // } else {
+    //     displayFeat.fadeOut(1000);
+    // }
 //****End hidden section Features & show when reach to 1000px ****/
 
 //**Start Show Color Option Div When Click on the Gear */

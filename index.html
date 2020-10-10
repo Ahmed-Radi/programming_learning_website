@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/hover.css">
     <link rel="stylesheet" href="css/boot.css">
     <link rel="stylesheet" href="./css/themes/default_theme.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&display=swap">
     <!--[if lt IE9]>
       <script src="js/html5shiv.min.js"></script>
@@ -22,7 +23,12 @@
     <!--md -> medium screens-->
     <!--sm -> small screens-->
     <!--xs -> Extra small screens-->
-
+    <!--wow
+      data-wow-duration="2s" the time the animation take it to stop
+      data-wow-delay="4s" time wait before do the animation
+      data-wow-offset="350" should reached to this length do the animation
+      data-wow-iteration="3" Number of repete this animation
+    -->
     <!-- Start Section Tool Box -->
 
     <section class="option-box">
@@ -149,7 +155,7 @@
 <!--End Carousel -->
 
 <!--Start About -->
-  <section class="about text-center">
+  <section class="about text-center wow animate__zoomInDown" data-wow-duration="2s" data-wow-offset="150">
     <div class="container">
       <div class="row">
         <div class="imageabout col-md-6 col-xs-12">
@@ -179,7 +185,7 @@
       <div class="row">
 
         <div class="col-lg-3 col-md-6">
-          <div class="feat  hvr-grow-shadow">
+          <div class="feat  hvr-grow-shadow wow animate__fadeInBottomLeft"  data-wow-duration="2s" data-wow-offset="400">
             <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
             <h3>Front-End Developer</h3>
             <p>Frontend development is made from everything that the client
@@ -191,7 +197,7 @@
         </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="feat  hvr-grow-shadow">
+            <div class="feat  hvr-grow-shadow wow animate__fadeInDownBig"  data-wow-duration="2s" data-wow-offset="400">
               <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
               <h3>Back-End Developer</h3>
               <p>Backend development is made from everything that the server does.
@@ -204,7 +210,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="feat  hvr-grow-shadow">
+            <div class="feat  hvr-grow-shadow wow animate__fadeInUpBig"  data-wow-duration="2s" data-wow-offset="400">
               <span class="glyphicon glyphicon-console" aria-hidden="true"></span>
               <h3>MEAN Stack Developer</h3>
               <p>A MEAN stack developer is someone who has knowledge in some
@@ -217,7 +223,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="feat  hvr-grow-shadow">
+            <div class="feat  hvr-grow-shadow wow animate__fadeInTopRight"  data-wow-duration="2s" data-wow-offset="400">
               <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span>
               <h3>Full Stack Developer</h3>
               <p>A full-stack developer is a web developer or engineer who
@@ -237,7 +243,7 @@
 
 
 <!-- Start Section Testimonials  -->
-  <section class="testimonials text-center">
+  <section class="testimonials text-center wow animate__flipInY" data-wow-duration="1s" data-wow-offset="300">
     <div class="container">
       <h2 class="h1">The Best Aphorisms From The Famous Developers</h2>
 
@@ -256,7 +262,7 @@
             <span>Steve jobs</span>
           </div>
           <div class="item">
-            <p class="lead">“The past is over and now it has begun”</p>
+            <p class="lead">“If you dream, you have to dream a big dream”</p>
             <span>Ahmed Radi</span>
           </div>
           <div class="item">
@@ -298,7 +304,7 @@
       <div class="row">
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
-          <div class="priceBox">
+          <div class="priceBox wow animate__fadeInUp"  data-wow-duration="1s" data-wow-offset="300">
             <h2 class="text-primary">Front-End</h2>
             <p class="center-block">40$</p>
             <ul class="list-unstyled">
@@ -313,7 +319,7 @@
         </div>
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
-          <div class="priceBox">
+          <div class="priceBox wow animate__fadeInDown" data-wow-duration="1s" data-wow-offset="300">
             <h2 class="text-success">Back-End</h2>
             <p class="center-block">80$</p>
             <ul class="list-unstyled">
@@ -328,7 +334,7 @@
         </div>
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
-          <div class="priceBox">
+          <div class="priceBox wow animate__fadeInUp" data-wow-duration="1s" data-wow-offset="300">
             <h2 class="text-info">MEAN Stack</h2>
             <p class="center-block">90$</p>
             <ul class="list-unstyled">
@@ -343,7 +349,7 @@
         </div>
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
-          <div class="priceBox">
+          <div class="priceBox wow animate__fadeInDown" data-wow-duration="1s" data-wow-offset="300">
             <h2 class="text-danger">Full Stack</h2>
             <p class="center-block">100$</p>
             <ul class="list-unstyled">
@@ -371,7 +377,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-sm-6">
-            <div class="person">
+            <div class="person wow animate__pulse" data-wow-duration="2s" data-wow-offset="100">
               <img class="img-circle" src="./img/4.jpg" alt="">
               <h3>Bill Gates</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, temporibus.</p>
@@ -383,7 +389,7 @@
           </div>
 
           <div class="col-lg-3 col-sm-6">
-            <div class="person">
+            <div class="person wow animate__pulse" data-wow-duration="2s" data-wow-offset="100">
               <img class="img-circle" src="./img/8.jpg" alt="">
               <h3>Steve jobs</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, maiores.</p>
@@ -395,7 +401,7 @@
           </div>
 
           <div class="col-lg-3 col-sm-6">
-            <div class="person">
+            <div class="person wow animate__pulse" data-wow-duration="2s" data-wow-offset="100">
               <img class="img-circle" src="./img/8.jpg" alt="">
               <h3>Ahmed Radi</h3>
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, repudiandae.</p>
@@ -407,7 +413,7 @@
           </div>
 
           <div class="col-lg-3 col-sm-6">
-            <div class="person">
+            <div class="person wow animate__pulse" data-wow-duration="2s" data-wow-offset="100">
               <img class="img-circle" src="./img/9.jpg" alt="">
               <h3>Martin Fowler</h3>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, nihil.</p>
@@ -428,7 +434,7 @@
   <!-- Start section subscribe  -->
 
   <section class="subscribe text-center">
-    <div class="container">
+    <div class="container wow animate__swing" data-wow-duration="1s" data-wow-offset="100">
       <h2 class="h1">Keep In Touch</h2>
       <p class="lead">Sign up For Newsletter Don't worry about spam We hate Too.</p>
       <form class="form-inline">
@@ -560,7 +566,7 @@
 
           <!-- Start contact us form -->
           <form>
-            <div class="col-md-6">
+            <div class="col-md-6 wow animate__bounceInLeft" data-wow-duration="1s" data-wow-offset="100">
               <div class="form-group">
                 <label for="user-name">
                   <input id="user-name" type="text" class="form-control" placeholder="User Name">
@@ -577,7 +583,7 @@
                 </label>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 wow animate__bounceInRight" data-wow-duration="1s" data-wow-offset="100">
               <div class="form-group">
                 <label for="text-area">
                   <textarea id="text-area" class="form-control" placeholder="Your Message"></textarea>
@@ -600,22 +606,22 @@
       <div class="row">
         <ul class="list-unstyled">
           <li class="col-md-2 col-xs-4">
-            <img src="./img/our-clients/bbc.png" width="165" height="40" class=" img-responsive center-block" alt="">
+            <img src="./img/our-clients/bbc.png" width="165" height="40" class="img-responsive center-block wow animate__bounceIn"  data-wow-duration="1s" data-wow-offset="100" data-wow-delay="0.5s" alt="">
           </li>
           <li class="col-md-2 col-xs-4">
-            <img src="./img/our-clients/ccn.png" width="165" height="40" class=" img-responsive center-block" alt="">
+            <img src="./img/our-clients/ccn.png" width="165" height="40" class="img-responsive center-block wow animate__bounceIn"  data-wow-duration="1s" data-wow-offset="100" data-wow-delay="1s" alt="">
           </li>
           <li class="col-md-2 col-xs-4">
-            <img src="./img/our-clients/Forbes.png" width="165" height="40" class=" img-responsive center-block" alt="">
+            <img src="./img/our-clients/Forbes.png" width="165" height="40" class="img-responsive center-block wow animate__bounceIn"  data-wow-duration="1s" data-wow-offset="100" data-wow-delay="1.5s" alt="">
           </li>
           <li class="col-md-2 col-xs-4">
-            <img src="./img/our-clients/TechRadar.png" width="165" height="40" class=" img-responsive center-block" alt="">
+            <img src="./img/our-clients/TechRadar.png" width="165" height="40" class="img-responsive center-block wow animate__bounceIn"  data-wow-duration="1s" data-wow-offset="100" data-wow-delay="2s" alt="">
           </li>
           <li class="col-md-2 col-xs-4">
-            <img src="./img/our-clients/voices-word.png" width="165" height="40" class=" img-responsive center-block" alt="">
+            <img src="./img/our-clients/voices-word.png" width="165" height="40" class="img-responsive center-block wow animate__bounceIn"  data-wow-duration="1s" data-wow-offset="100" data-wow-delay="2.5s" alt="">
           </li>
           <li class="col-md-2 col-xs-4">
-            <img src="./img/our-clients/SiteLogo.png" width="165" height="40" class=" img-responsive center-block" alt="">
+            <img src="./img/our-clients/SiteLogo.png" width="165" height="40" class="img-responsive center-block wow animate__bounceIn"  data-wow-duration="1s" data-wow-offset="100" data-wow-delay="3s" alt="">
           </li>
         </ul>
       </div>
@@ -717,7 +723,7 @@
     </footer>
     <!-- Start Ultimate Footer Section -->
 
-    <!-- Start section loading -->
+    <!-- Start section loading --
 
     <div class="loading-overlay">
       <div class="sk-cube-grid">
@@ -747,5 +753,7 @@
     <script src="./js/jQueryv3.5.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>new WOW().init(); </script>
   </body>
 </html>
