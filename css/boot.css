@@ -1,8 +1,4 @@
-body{
-  height: 5000px;
-  padding-top:70px;
-  /* overflow: hidden; */
-}
+body{padding-top:70px;overflow: hidden;}
 h1,h2,h3,h4,h5,.lead {font-family: 'Hind Siliguri', sans-serif;}
 /************Edit bootstrap file*************/
 /*Main Navbar*/
