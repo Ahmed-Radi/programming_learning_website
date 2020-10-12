@@ -1,12 +1,13 @@
 /*global $,window,document */
 $(document).ready(function () {
     "use strict";
-    //Nice Scroll
-    $("html").niceScroll();
+
     $('.carousel').carousel({
         interval: 4000
     });
 });
+    //Nice Scroll
+    $("body").niceScroll()
 //** Start hidden section Features & show when reach to 1000px */
 $(window).scroll(function () {
     "use strict";
