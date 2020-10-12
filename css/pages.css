@@ -36,3 +36,22 @@
 .about-ceo .button-contact-me a{text-decoration: none;color: #fff;}
 .about-ceo .button-contact-me:hover{opacity: 1;background-color: var(--main-color);}
 /**End About us*/
+/**Strat FAQ*/
+.faq{padding: 40px 0;}
+.faq .h1{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-size: 60px;
+}
+.faq .h1 ~ hr{width: 70%;}
+.faq-questions .panel-heading{padding: 17px 15px;}
+.faq-questions .panel-heading a::after{
+    font-family: 'Glyphicons Halflings';
+    font-size: 22px;
+    color: var(--main-color);
+    content: "\e134";
+    float: right;
+}
+.faq-questions .panel-heading a.collapsed::after{content: "\e132";color: var(--second-color);}
+/**End FAQ*/
