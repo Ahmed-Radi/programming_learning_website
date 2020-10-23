@@ -160,6 +160,7 @@ h1,h2,h3,h4,h5,.lead {font-family: 'Hind Siliguri', sans-serif;}
   padding: 10px;
   border:0px solid #000;
   margin-bottom: 15px;
+  border-radius: 30px;
 }
 .coursesTable .priceBox h3 {margin: 5px 0px 15px;}
 .coursesTable .priceBox:hover p{
