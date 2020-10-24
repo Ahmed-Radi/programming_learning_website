@@ -89,7 +89,6 @@ h1,h2,h3,h4,h5,.lead {font-family: 'Hind Siliguri', sans-serif;}
 /** Start Section About */
 
 .about .lead{color: #888;font-size: 27px;margin-top: 15px;}
-.about .lead p{font-family: Montserrat, sans-serif;}
 .about h1 span,.about p span {font-weight: bold;}
 .imageabout img {height: 300px; width: 400px;}
 /** End Section About */
