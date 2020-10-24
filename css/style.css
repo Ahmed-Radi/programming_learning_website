@@ -88,11 +88,8 @@ h1,h2,h3,h4,h5,.lead {font-family: 'Hind Siliguri', sans-serif;}
 
 /** Start Section About */
 
-.about .lead{
-  color: #888;
-  font-size: 27px;
-  margin-top: 15px;
-}
+.about .lead{color: #888;font-size: 27px;margin-top: 15px;}
+.about .lead p{font-family: Montserrat, sans-serif;}
 .about h1 span,.about p span {font-weight: bold;}
 .imageabout img {height: 300px; width: 400px;}
 /** End Section About */
@@ -184,8 +181,17 @@ h1,h2,h3,h4,h5,.lead {font-family: 'Hind Siliguri', sans-serif;}
   -o-transition-duration: 0.7s;
   transition-duration: 0.7s;
 }
-.coursesTable .priceBox ul {font-size: 20px; line-height: 200%;}
-.coursesTable .priceBox a {margin-bottom: 5px;}
+.coursesTable .priceBox h2{letter-spacing: -1px;}
+.coursesTable .priceBox ul {font-size: 20px; line-height: 200%;font-family: Montserrat, sans-serif;}
+.coursesTable .priceBox a {
+  margin-bottom: 5px;
+  padding: 10px;
+  width: 172px;
+  border: 0px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+.coursesTable .priceBox a:hover {opacity: 1;}
 /** End Section courses table */
 
 /** Strat Section our team */
@@ -248,6 +254,12 @@ h1,h2,h3,h4,h5,.lead {font-family: 'Hind Siliguri', sans-serif;}
 /** Start my Skills */
 .my-skills h2 {margin-bottom: 60px; font-weight: bold;}
 .my-skills .my-info h3 {margin-top: 0px; font-weight: bold;}
+.my-skills .my-info button{
+  padding: 10px;
+  width: 200px;
+  border: 0;
+  font-weight: bold;
+}
 .my-skills .progress-bar{
   font-weight: bold;
   text-align: left;

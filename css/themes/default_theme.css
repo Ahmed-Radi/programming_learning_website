@@ -10,9 +10,11 @@
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus,
 .dropdown-menu > li > a:hover,
+.coursesTable .priceBox a,
 .carousel-indicators .active,
 .option-box .gear-check,
 .subscribe button,
+.my-skills .my-info button:hover,
 #scroll-top:hover{
     background-color:var(--main-color);
 }
@@ -24,6 +26,10 @@
 .dropdown-menu .divider,
 #scroll-top{
     background-color: var(--second-color);
+}
+/* background color Second-color*/
+.my-skills .my-info button{
+    background-color: var(--second-color-hover);
 }
 /* color */
 .navbar-inverse .navbar-brand span,
@@ -39,6 +45,7 @@
     color: var(--second-color);
 }
 /* Color second-color:hover */
+.coursesTable .priceBox h2,
 .footer .copyright span:hover{
     color:var(--second-color-hover);
 }
