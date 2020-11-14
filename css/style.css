@@ -87,7 +87,6 @@ h1,h2,h3,h4,h5,.lead {font-family: 'Hind Siliguri', sans-serif;}
 /** End Section Tool Box */
 
 /** Start Section About */
-
 .about .lead{color: #888;font-size: 27px;margin-top: 15px;}
 .about h1 span,.about p span {font-weight: bold;}
 .imageabout img {height: 300px; width: 400px;}
@@ -154,7 +153,7 @@ h1,h2,h3,h4,h5,.lead {font-family: 'Hind Siliguri', sans-serif;}
 .coursesTable .priceBox{
   background-color: #fff;
   padding: 10px;
-  border:0px solid #000;
+  border:0;/* ! I typed none instead of 0 to save space*/
   margin-bottom: 15px;
   border-radius: 30px;
 }
@@ -170,7 +169,6 @@ h1,h2,h3,h4,h5,.lead {font-family: 'Hind Siliguri', sans-serif;}
   font-weight: bold;
   color: #999;
   background-color: #f3f3f3;
-  border: 1px solid #000;
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -219,11 +217,12 @@ h1,h2,h3,h4,h5,.lead {font-family: 'Hind Siliguri', sans-serif;}
 }
 .subscribe p {margin-bottom: 30px;}
 .subscribe .form-control{
-  border-radius: 0;
+  border-radius: 22px;
   margin-right: -4px;
   width: 300px;
 }
-.subscribe button {border-radius: 0;}
+.subscribe button {border-radius: 22px;margin-left: 16px;overflow: hidden;}
+.subscribe button.btn-danger {border: 0;}
 /** End section subscribe */
 
 /** Start section stats */
@@ -514,9 +513,8 @@ input[type='email'],
       width: 252px;
   }
   /*Start section subscribe*/
-  .subscribe .form-control{
-      margin: 30px auto;
-  }
+  .subscribe .form-control{margin: 30px auto;}
+  .subscribe button{margin-left: 0;}
   /*End section subscribe*/
   /* OurTeam */
   .ourteam{
